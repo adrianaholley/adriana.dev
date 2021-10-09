@@ -8,20 +8,22 @@ function App() {
       <header className="App-header">
         <img src={facezoom} className="App-logo" alt="logo" />
 
+        {/* text */}
         <span className="title">
           ✨ Hi, I'm Adriana! ✨
         </span>
 
         <span className="subtitle">
-          Android Engineer at Target
+          📱Android Engineer at Target🎯
         </span>
 
         <span className="subtitle2">
-          Freelance Android app developer | Freelance Snapchat filter designer
+          Making apps, sometimes websites. Always looking for apartment decor.
         </span>
 
         <span className="spacing"></span>
         
+        {/* buttons */}
         <div class="neomorphism">
           <span className="button">Skyway Map Minneapolis</span>
         </div>
@@ -37,9 +39,10 @@ function App() {
         </div>
 
         <span className="spacing"></span>
+        <span className="spacing"></span>
 
         <span className="footer">
-          Work in Progress. Last updated Oct 8, 2021.
+          Last updated Oct 8, 2021.
         </span>
 
       </header>
