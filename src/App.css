@@ -86,6 +86,8 @@
 
 .neomorphism:hover {
   cursor: pointer;
+  box-sizing: border-box;
+  background: linear-gradient(145deg, #cbccd1, #ffffff);
 }
 
 .spacing {
