@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Button from '@material-ui/core/Button';
 import facezoom from './face-zoom.png';
 import './App.css';
@@ -9,22 +8,39 @@ function App() {
       <header className="App-header">
         <img src={facezoom} className="App-logo" alt="logo" />
 
-        <p>Adriana Holley</p>
-        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <span className="title">
+          ✨ Hi, I'm Adriana! ✨
+        </span>
+
+        <span className="subtitle">
           Android Engineer at Target
-        </a>         
+        </span>
 
-        <Button variant='outlined'>About</Button>
-        <Button variant='outlined'>Experience</Button>
-        <Button variant='outlined'>Projects</Button>     
+        <span className="subtitle2">
+          Freelance Android app developer | Freelance Snapchat filter designer
+        </span>
 
-        <a>Work in Progress. Last updated Oct 6, 2021.</a>
+        <span className="spacing"></span>
+        
+        <div class="neomorphism">
+          <span className="button">Skyway Map Minneapolis</span>
+        </div>
+        <span className="button-spacing"></span>
+
+        <div class="neomorphism">
+          <span className="button">TTUCovid19.com</span>
+        </div>
+        <span className="button-spacing"></span>
+
+        <div class="neomorphism">
+          <span className="button">SquareSquare</span>
+        </div>
+
+        <span className="spacing"></span>
+
+        <span className="footer">
+          Work in Progress. Last updated Oct 8, 2021.
+        </span>
 
       </header>
     </div>

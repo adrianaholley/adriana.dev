@@ -1,9 +1,45 @@
 .App {
   text-align: center;
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.title {
+  font-weight: 700;
+  font-size: calc(28px + 2vmin);
+  padding: 16px;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: calc(8px + 2vmin);
+  padding-bottom: 4px;
+}
+
+.subtitle2 {
+  font-weight: 400;
+  font-size: calc(1px + 2vmin);
+}
+
+.footer {
+  font-weight: 400;
+  font-size: calc(1px + 1vmin);
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   border-radius: 200px;
   pointer-events: none;
 }
@@ -20,9 +56,42 @@
 }
 
 .button {
-  background-color: #cc0000
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.button-container {
+  position: relative;
+}
+
+.neomorphism-shadow {
+  z-index: -1;
+}
+
+.neomorphism-shadow span {
+  box-shadow: 20px 20px 60px #d2d3d7,
+  -20px -20px 60px #ffffff;
+  position: relative;
+}
+
+.neomorphism {
+  border-radius: 50px;
+  background: linear-gradient(145deg, #dedfe4, #ffffff);
+  display: flex; /* vertical align */
+  width: 25%;
+  height: calc(20px + 2vmin);
+  box-shadow: 20px 20px 60px #d2d3d7,
+  -20px -20px 60px #ffffff;
+  /* z-index: 1; */
+}
+
+.spacing {
+  padding: 16px;
+}
+
+.button-spacing {
+  padding: 8px;
+}
+
+.text {
+  margin: auto;
 }
