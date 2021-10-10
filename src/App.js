@@ -6,44 +6,73 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={facezoom} className="App-logo" alt="logo" />
-
-        {/* text */}
-        <span className="title">
-          ✨ Hi, I'm Adriana! ✨
-        </span>
-
-        <span className="subtitle">
-          📱Android Engineer at Target🎯
-        </span>
-
-        <span className="subtitle2">
-          Making apps, sometimes websites. Always looking for apartment decor.
-        </span>
-
         <span className="spacing"></span>
+
+        <div class="glass-card">
+          {/* image */}
+          <img src={facezoom} className="App-logo" alt="logo" />
+
+          {/* text */}
+          <div>
+            <span className="title">
+              ✨ Hi, I'm Adriana! ✨
+            </span>
+          </div>
+
+          <span className="header-spacing"></span>
+
+          <div>
+            <span className="subtitle">
+              📱Android Engineer at Target🎯
+            </span>
+          </div>
+
+          <span className="tiny-spacing"></span>
+
+          <div style={{lineHeight:.75}}>
+            <span className="subtitle2">
+              Making apps, sometimes websites. Fan of good design.
+            </span>
+          </div>
+
+          <span className="button-spacing"></span>
         
-        {/* buttons */}
-        <div class="neomorphism">
-          <span className="button">Skyway Map Minneapolis</span>
-        </div>
-        <span className="button-spacing"></span>
+          {/* buttons */}
+          <a 
+            href="https://play.google.com/store/apps/details?id=com.adriapolis.skywaymappgoogle&hl=en_US&gl=US"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="neomorphism">
+              <span className="button">Skyway Map Minneapolis</span>
+            </div>
+          </a>
+          <span className="button-spacing"></span>
 
-        <div class="neomorphism">
-          <span className="button">TTUCovid19.com</span>
-        </div>
-        <span className="button-spacing"></span>
+          <a 
+            href="https://ttucovid19.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="neomorphism">
+              <span className="button">TTUCovid19.com</span>
+            </div>
+          </a>
+          <span className="button-spacing"></span>
 
-        <div class="neomorphism">
-          <span className="button">SquareSquare</span>
+          <a 
+            href="https://adriana.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="neomorphism">
+              <span className="button">adriana.dev</span>
+            </div>
+          </a>
+
         </div>
 
         <span className="spacing"></span>
-        <span className="spacing"></span>
-
-        <span className="footer">
-          Last updated Oct 8, 2021.
-        </span>
 
       </header>
     </div>
