@@ -1,5 +1,8 @@
 import Button from '@material-ui/core/Button';
 import facezoom from './face-zoom.png';
+import Email from '@material-ui/icons/Email';
+import Github from '@material-ui/icons/GitHub';
+import LinkedIn from '@material-ui/icons/LinkedIn';
 import './App.css';
 
 function App() {
@@ -12,14 +15,14 @@ function App() {
           {/* image */}
           <img src={facezoom} className="App-logo" alt="logo" />
 
+          <span className="button-spacing"></span>
+
           {/* text */}
           <div>
             <span className="title">
               ✨ Hi, I'm Adriana! ✨
             </span>
           </div>
-
-          <span className="header-spacing"></span>
 
           <div>
             <span className="subtitle">
@@ -69,11 +72,36 @@ function App() {
               <span className="button">adriana.dev</span>
             </div>
           </a>
+          <span className="button-spacing"></span>
+
+          <div className="icons">
+            <a 
+              href="mailto:hello@adriana.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Email style={{paddingRight:12}}/>
+            </a>
+
+            <a 
+              href="https://github.com/adrianaholley"
+              target="_blank"
+              rel="noopener noreferrer"
+            >  
+              <Github style={{paddingRight:12}}/>
+            </a>
+
+            <a 
+              href="https://linkedin.com/in/adrianaholley"
+              target="_blank"
+              rel="noopener noreferrer"
+            >  
+              <LinkedIn/>
+            </a>
+          </div>
+          <span className="small-spacing"></span>
 
         </div>
-
-        <span className="spacing"></span>
-
       </header>
     </div>
   );

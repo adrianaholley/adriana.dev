@@ -40,14 +40,20 @@
   color: #333;
 }
 
+.icons {
+  display: flex;
+}
+
 .glass-card {
   align-items: center;
   flex-direction: column;
   display: flex;
   margin: 20px;
   backdrop-filter: blur(6px) saturate(128%);
-    -webkit-backdrop-filter: blur(6px) saturate(128%);
-  padding: 28px;
+  -webkit-backdrop-filter: blur(6px) saturate(128%);
+  padding-top: 28px;
+  padding-right: 28px;
+  padding-left: 28px;
   border-radius: 16px;
   background-color: rgba(255, 255, 255, .2);
   border: 1px solid rgba(209, 213, 219, 0.3);
@@ -77,10 +83,8 @@ a {
   font-size: calc(8px + 2vmin);
   -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.1); 
   box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.1);
-  backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-  
-  /* z-index: 1; */
+  backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
 }
 
 .neomorphism:hover {
@@ -93,8 +97,16 @@ a {
   padding: 16px;
 }
 
+.medium-spacing {
+  padding: 12px;
+}
+
 .button-spacing {
   padding: 8px;
+}
+
+.small-spacing {
+  padding: 6px;
 }
 
 .header-spacing {
