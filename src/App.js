@@ -1,5 +1,6 @@
-import Button from '@material-ui/core/Button';
 import facezoom from './face-zoom.png';
+import CoffeeIcon from '@mui/icons-material/Coffee';
+// import Coffee from '@material-ui/icons/Coffee';
 import Email from '@material-ui/icons/Email';
 import Github from '@material-ui/icons/GitHub';
 import LinkedIn from '@material-ui/icons/LinkedIn';
@@ -96,8 +97,18 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >  
-              <LinkedIn/>
+              <LinkedIn style={{paddingRight:12}}/>
             </a>
+
+            <a
+              href="https://ko-fi.com/adrianaholley"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <CoffeeIcon/>
+            </a>
+
+
           </div>
           <span className="small-spacing"></span>
 
