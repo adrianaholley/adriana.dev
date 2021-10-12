@@ -14,12 +14,12 @@
 .subtitle {
   font-weight: 400;
   font-size: calc(8px + 2vmin);
-  padding-bottom: 4px;
 }
 
 .subtitle2 {
   font-weight: 400;
   font-size: calc(4px + 2vmin);
+  padding: 4px;
 }
 
 .App-logo {
