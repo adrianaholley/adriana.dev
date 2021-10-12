@@ -1,5 +1,5 @@
 import facezoom from './face-zoom.png';
-import CoffeeIcon from '@mui/icons-material/Coffee';
+// import CoffeeIcon from '@mui/icons-material/Coffee';
 import Email from '@material-ui/icons/Email';
 import Github from '@material-ui/icons/GitHub';
 import LinkedIn from '@material-ui/icons/LinkedIn';
@@ -104,7 +104,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <CoffeeIcon/>
+              {/* <CoffeeIcon/> */}
             </a>
 
 
