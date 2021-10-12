@@ -126,8 +126,6 @@ a {
 .circles {
   background-color: rgb(213, 193, 250);
 	position: absolute;
-	bottom: 40;
-	left: 80;
 	width: 100%;
 	height: 100%;
 	z-index: -1;
@@ -235,7 +233,7 @@ a {
 }
 
 .circles li:nth-child(10) {
-	left: 72%;
+	left: 54%;
 	width: 200px;
 	height: 200px;
 	animation-delay: 0s;
