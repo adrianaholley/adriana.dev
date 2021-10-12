@@ -16,7 +16,7 @@ function App() {
           <img 
             src={facezoom} 
             className="App-logo" 
-            alt="Photo of Adriana, young woman with straight brown hair, smiling." 
+            // alt="Photo of Adriana, young woman with straight brown hair, smiling." 
           />
 
           <span className="button-spacing"></span>
