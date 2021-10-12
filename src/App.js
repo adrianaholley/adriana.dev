@@ -112,6 +112,20 @@ function App() {
           <span className="small-spacing"></span>
 
         </div>
+
+        <ul class='circles'>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+
       </header>
     </div>
   );
