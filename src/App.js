@@ -16,7 +16,6 @@ function App() {
           <img 
             src={facezoom} 
             className="App-logo" 
-            alt="logo" 
             alt="Photo of Adriana, young woman with straight brown hair, smiling." 
           />
 
