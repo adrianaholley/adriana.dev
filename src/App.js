@@ -13,11 +13,7 @@ function App() {
 
         <div class="glass-card">
           {/* image */}
-          <img 
-            src={facezoom} 
-            className="App-logo" 
-            // alt="Photo of Adriana, young woman with straight brown hair, smiling." 
-          />
+          <img src={facezoom} className="App-logo" alt="logo" />
 
           <span className="button-spacing"></span>
 
