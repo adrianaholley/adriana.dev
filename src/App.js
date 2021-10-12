@@ -13,7 +13,12 @@ function App() {
 
         <div class="glass-card">
           {/* image */}
-          <img src={facezoom} className="App-logo" alt="logo" />
+          <img 
+            src={facezoom} 
+            className="App-logo" 
+            alt="logo" 
+            alt="Photo of Adriana, young woman with straight brown hair, smiling." 
+          />
 
           <span className="button-spacing"></span>
 
@@ -34,7 +39,7 @@ function App() {
 
           <div style={{lineHeight:.75}}>
             <span className="subtitle2">
-              Making apps, sometimes websites. Fan of good design.
+              Making apps, sometimes websites. Fan of cool designs.
             </span>
           </div>
 
