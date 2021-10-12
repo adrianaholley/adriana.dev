@@ -125,7 +125,6 @@ function App() {
           <li></li>
           <li></li>
         </ul>
-
       </header>
     </div>
   );
