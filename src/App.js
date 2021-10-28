@@ -4,10 +4,14 @@ import Email from '@material-ui/icons/Email';
 import Github from '@material-ui/icons/GitHub';
 import LinkedIn from '@material-ui/icons/LinkedIn';
 import './App.css';
+import { Button } from '@material-ui/core'
+import strings from './strings';
+
 
 function App() {
   return (
     <div className="App">
+
       <header className="App-header">
         <span className="spacing"></span>
 
@@ -20,13 +24,13 @@ function App() {
           {/* text */}
           <div>
             <span className="title">
-              ✨ Hi, I'm Adriana! ✨
+              {strings.hi}
             </span>
           </div>
 
           <div>
             <span className="subtitle">
-              📱Android Engineer at Target🎯
+              {strings.job_description}
             </span>
           </div>
 
@@ -34,7 +38,7 @@ function App() {
 
           <div style={{lineHeight:.75}}>
             <span className="subtitle2">
-              Making apps, sometimes websites. Fan of cool designs.
+              {strings.self_description}
             </span>
           </div>
 
@@ -47,7 +51,7 @@ function App() {
             rel="noopener noreferrer"
           >
             <div class="neomorphism">
-              <span className="button">Skyway Map Minneapolis</span>
+              <span className="button">{strings.button1}</span>
             </div>
           </a>
           <span className="button-spacing"></span>
@@ -58,7 +62,7 @@ function App() {
             rel="noopener noreferrer"
           >
             <div class="neomorphism">
-              <span className="button">TTUCovid19.com</span>
+              <span className="button">{strings.button2}</span>
             </div>
           </a>
           <span className="button-spacing"></span>
@@ -69,7 +73,7 @@ function App() {
             rel="noopener noreferrer"
           >
             <div class="neomorphism">
-              <span className="button">adriana.dev</span>
+              <span className="button">{strings.button3}</span>
             </div>
           </a>
           <span className="button-spacing"></span>
@@ -115,7 +119,7 @@ function App() {
 
         <div style={{lineHeight:.85}}>
           <span className="subtitle2">
-            Has my work helped you? 
+            {strings.coffee_intro}
           </span>
         </div>
 
@@ -127,7 +131,7 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Buy me a coffee!
+                {strings.coffee_text}
               </a>
             </b>
           </span>
