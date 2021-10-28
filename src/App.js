@@ -107,10 +107,30 @@ function App() {
               {/* <CoffeeIcon/> */}
             </a>
 
-
           </div>
+          
           <span className="small-spacing"></span>
 
+        </div>
+
+        <div style={{lineHeight:.85}}>
+          <span className="subtitle2">
+            Has my work helped you? 
+          </span>
+        </div>
+
+        <div style={{lineHeight:.85}}>
+          <span className="subtitle2">
+            <b>
+              <a
+                href="https://ko-fi.com/adrianaholley"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Buy me a coffee!
+              </a>
+            </b>
+          </span>
         </div>
 
         <ul class='circles'>
