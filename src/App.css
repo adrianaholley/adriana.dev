@@ -130,8 +130,35 @@ a {
 
 /* Animated Circles CSS */
 
+div {
+	--theme1purple: rgb(213,193,250);	/* background */
+	--theme1pinkLight: #FAD1FA; 		/* 0, 1, 7 */
+	--theme1teal: #99f1fa; 				/* 2, 4, 5, 10 */
+	--theme1idk: #a7fac6; 				/* 3, 6 */
+	--theme1huh: #faf8c5; 				/* 8, 9 */
+}
+
+div {
+	--theme2blue: rgb(0, 193, 250);	/* background */
+	--theme2pinkLight:  #FAD1FA; 	/* 0, 1 */
+	--theme2teal: #99f1fa; 			/* 2, 5, 10 */
+	--theme2purpleLight: #c0a7fa; 	/* 3, 6 */
+	--theme2purpleDark: #b399fa; 	/* 4 */
+	--theme2pinkDark:  #fcc6fc; 	/* 7 */
+	--theme2green: #c5faf7; 		/* 8, 9 */
+}
+
+div {
+	--theme3yellow: #edda9e; 	/* background */
+	--theme3red: #f16a3c;		/* 0, 1 */
+	--theme3orange: #f7892c;	/* 2, 5, 10 */
+	--theme3pink: #ecc0ab;		/* 3, 6 */
+	--theme3peach: #f69273;		/* 4, 7 */
+	--theme3gold: #f5ba3d;		/* 8, 9 */
+}
+
 .circles {
-  background-color: rgb(0, 193, 250); /* super pretty blue rgb(0,193,250), orig purp 213,193,250*/
+  background-color: var(--theme3yellow); 
 	position: absolute;
 	width: 100%;
   height: 100vh;
@@ -144,7 +171,7 @@ a {
 	list-style: none;
 	width: 80px;
 	height: 80px;
-	background: #FAD1FA; /* pink */
+	background: var(--theme3red);
 	animation: animate 25s linear infinite;
 	bottom: calc(100vh);
 }
@@ -156,7 +183,7 @@ a {
 	animation-delay: 0s;
 	animation-duration: 10s;
 	border-radius: 50%;
-	background: #FAD1FA; /* pink */
+	background: var(--theme3red);
 }
 
 .circles li:nth-child(2) {
@@ -166,7 +193,7 @@ a {
 	animation-delay: 0s;
 	animation-duration: 12s;
 	border-radius: 50%;
-	background: #99f1fa; /* teal */
+	background: var(--theme3orange);
 }
 
 .circles li:nth-child(3) {
@@ -176,7 +203,7 @@ a {
 	animation-delay: 0s;
 	animation-duration: 10s;
 	border-radius: 50%;
-	background: #c0a7fa; /* new purple */
+	background: var(--theme3pink);
 }
 
 .circles li:nth-child(4) {
@@ -186,7 +213,7 @@ a {
 	animation-delay: 0s;
 	animation-duration: 7s;
 	border-radius: 50%;
-	background:  #b399fa; /* darker purple */
+	background:  var(--theme3peach);
 }
 
 .circles li:nth-child(5) {
@@ -196,7 +223,7 @@ a {
 	animation-delay: 0s;
 	animation-duration: 10s;
 	border-radius: 50%;
-	background:  #99f1fa; /* teal */
+	background: var(--theme3orange);
 }
 
 .circles li:nth-child(6) {
@@ -206,7 +233,7 @@ a {
 	animation-delay: 0s;
 	animation-duration: 12s;
 	border-radius: 50%;
-	background: #c0a7fa; /* new purple */
+	background: var(--theme3pink);
 }
 
 .circles li:nth-child(7) {
@@ -216,7 +243,7 @@ a {
 	animation-delay: 0s;
 	animation-duration: 15s;
 	border-radius: 50%;
-	background: #fcc6fc; /* new pink */
+	background: var(--theme3peach);
 }
 
 .circles li:nth-child(8) {
@@ -226,7 +253,7 @@ a {
 	animation-delay: 0s;
 	animation-duration: 17s;
 	border-radius: 50%;
-	background: #c5faf7; /* new green */
+	background: var(--theme3gold);
 }
 
 .circles li:nth-child(9) {
@@ -236,7 +263,7 @@ a {
 	animation-delay: 0s;
 	animation-duration: 20s;
 	border-radius: 50%;
-	background:  #c5faf7; /* new green */
+	background:  var(--theme3gold);
 }
 
 .circles li:nth-child(10) {
@@ -246,7 +273,7 @@ a {
 	animation-delay: 0s;
 	animation-duration: 22s;
 	border-radius: 50%;
-	background: #99f1fa; /* teal */
+	background: var(--theme3orange);
 }
 
 @keyframes animate {
