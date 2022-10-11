@@ -8,6 +8,15 @@ class Contact extends Component {
                 <Card>
                     hi
                 </Card>
+                <Card>
+                    hi
+                </Card>
+                <Card>
+                    hi
+                </Card>
+                <Card>
+                    hi
+                </Card>
             </div>
         );
     } 
