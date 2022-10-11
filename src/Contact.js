@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import { Card } from '@material-ui/core';
 
 class Contact extends Component {
     render() {
         return (
             <div>
-                <span>
+                <Card>
                     hi
-                </span>
+                </Card>
             </div>
         );
     } 
