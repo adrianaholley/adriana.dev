@@ -3,10 +3,11 @@ import facezoom from './face-zoom.png';
 import Email from '@material-ui/icons/Email';
 import Github from '@material-ui/icons/GitHub';
 import LinkedIn from '@material-ui/icons/LinkedIn';
-import { Routes, BrowserRouter as Router, Route } from 'react-router-dom';
+import { Routes, BrowserRouter, Route } from 'react-router-dom';
 import Contact from './Contact.js'
 import './App.css';
 import strings from './strings';
+import React from 'react';
 
 
 function App() {
@@ -152,11 +153,11 @@ function App() {
         </ul>
       </header>
 
-      <Router>
+      <BrowserRouter>
         <Routes>
-          <Route path ="/contact" element={<Contact/>}/>
+          <Route path="/contact" element={Contact}/>
         </Routes>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
