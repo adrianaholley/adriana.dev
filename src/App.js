@@ -4,7 +4,6 @@ import Email from '@material-ui/icons/Email';
 import Github from '@material-ui/icons/GitHub';
 import LinkedIn from '@material-ui/icons/LinkedIn';
 import './App.css';
-import { Button } from '@material-ui/core'
 import strings from './strings';
 
 
