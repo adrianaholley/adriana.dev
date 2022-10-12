@@ -4,7 +4,7 @@ import facezoom from './face-zoom.png';
 import Email from '@material-ui/icons/Email';
 import Github from '@material-ui/icons/GitHub';
 import LinkedIn from '@material-ui/icons/LinkedIn';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import strings from './strings';
 
 class About extends Component {
@@ -131,12 +131,12 @@ class About extends Component {
                     >
                         {strings.coffee_text}
                     </a>
-                    <Link to='/contact'>
+                    {/* <Link to='/contact'>
                         contact
                     </Link>
                     <Link to='/acl'>
                         concert
-                    </Link>
+                    </Link> */}
                     </b>
                 </span>
                 </div>
