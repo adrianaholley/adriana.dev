@@ -134,6 +134,9 @@ class About extends Component {
                     <Link to='/contact'>
                         contact
                     </Link>
+                    <Link to='/acl'>
+                        concert
+                    </Link>
                     </b>
                 </span>
                 </div>

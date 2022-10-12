@@ -14,11 +14,18 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<About/>}/>
+          <Route path="/acl" element={<Acl />}/>
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
     </div>
   );
+}
+
+function Acl() {
+  window.location.replace('https://google.com');
+
+  return null
 }
 
 export default App;
