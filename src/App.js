@@ -13,8 +13,8 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<About/>}/>
-          <Route path="/acl" element={<Acl />}/>
+          <Route exact path="/" element={<About/>}/>
+          <Route exact path="/acl" element={<Acl />}/>
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
