@@ -1,4 +1,4 @@
-import { Routes, BrowserRouter, Route } from 'react-router-dom';
+import { Routes, Navigate, BrowserRouter, Route } from 'react-router-dom';
 import Contact from './Contact.js'
 import About from './About.js'
 import './App.css';
@@ -16,6 +16,7 @@ function App() {
           <Route exact path="/" element={<About/>}/>
           <Route exact path="/acl" element={<Acl />}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route exact path="*" component={() => <Navigate to={"/acl"} />} />
         </Routes>
       </BrowserRouter>
     </div>
