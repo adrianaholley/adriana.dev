@@ -1,6 +1,6 @@
 const strings = {
-    hi : '✨ Hi, I\'m Adriana! ✨',
-    job_description : '📱Senior Android Engineer at Target🎯',
+    hi: '✨ Hi, I\'m Adriana! ✨',
+    job_description: '📱Senior Android Engineer at Target🎯',
     self_description: 'Making apps, sometimes websites. Fan of cool designs.',
     button_mpls_app: 'Skyway Map Minneapolis',
     button_st_paul_app: 'Skyway Map St. Paul',
