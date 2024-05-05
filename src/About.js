@@ -49,7 +49,19 @@ class About extends Component {
                     rel="noopener noreferrer"
                 >
                     <div class="neomorphism">
-                    <span className="button">{strings.button1}</span>
+                    <span className="button">{strings.button_mpls_app}</span>
+                    </div>
+                </a>
+                <span className="button-spacing"></span>
+
+                {/* buttons */}
+                <a 
+                    href="https://play.google.com/store/apps/details?id=com.adriapolis.skywaymapstpaul&hl=en_US&gl=US"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <div class="neomorphism">
+                    <span className="button">{strings.button_st_paul_app}</span>
                     </div>
                 </a>
                 <span className="button-spacing"></span>
@@ -60,7 +72,7 @@ class About extends Component {
                     rel="noopener noreferrer"
                 >
                     <div class="neomorphism">
-                    <span className="button">{strings.button2}</span>
+                    <span className="button">{strings.button_ttu_site}</span>
                     </div>
                 </a>
                 <span className="button-spacing"></span>
@@ -71,7 +83,7 @@ class About extends Component {
                     rel="noopener noreferrer"
                 >
                     <div class="neomorphism">
-                    <span className="button">{strings.button3}</span>
+                    <span className="button">{strings.button_personal_site}</span>
                     </div>
                 </a>
                 <span className="button-spacing"></span>
