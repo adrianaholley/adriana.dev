@@ -4,7 +4,7 @@ This is my portfolio site, hosted by Netlify at https://adriana.dev.
 
 ## TL;DR
 
-I'm a Software Engineer focusing on Android apps, with two years of experience.
+I'm a Senior Software Engineer focusing on Android apps, with two years of experience.
 
 I work at [Target](https://target.com)'s headquarters in Minneapolis, and I'm working on [their flagship Android app](https://play.google.com/store/apps/details?id=com.target.ui&hl=en_US&gl=US). I've added many features to the app and its build pipeline. 
 
