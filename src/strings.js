@@ -1,6 +1,6 @@
 const strings = {
     hi : '✨ Hi, I\'m Adriana! ✨',
-    job_description : '📱Android Engineer at Target🎯',
+    job_description : '📱Senior Android Engineer at Target🎯',
     self_description: 'Making apps, sometimes websites. Fan of cool designs.',
     button1: 'Skyway Map Minneapolis',
     button2: 'TTUCovid19.com',
